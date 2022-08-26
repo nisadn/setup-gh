@@ -40,12 +40,14 @@ export default function Home() {
                 <FormErrorMessage>This field is required</FormErrorMessage>
             </FormControl>
 
-            <Flex>
+            <Flex direction={['column','row','row']}>
                 <Button px='10' type='submit' 
                   // isLoading={mutation.isLoading} 
                 >Post</Button>
                 <Button px='10' >Cancel</Button>
             </Flex>
+
+            <Box p='4' bg='random.100'>coba custom theme</Box>
             </form>
         </Flex>
       </main>
